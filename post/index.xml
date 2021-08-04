@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Mboh Gaero Jenenge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Wed, 09 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://alfathir.github.io/alfathir-hugo/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alfathir.github.io/alfathir-hugo/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Belajar Markdown</title>
+      <link>https://alfathir.github.io/alfathir-hugo/belajar-markdown/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alfathir.github.io/alfathir-hugo/belajar-markdown/</guid>
+      <description>Belajar Markdown untuk Pemula Pengenalan Apa sih Markdown itu? Markdown adalah bahasa markah ringan dengan sintaksis pemformatan teks polos. Bahasa markah ini dirancang agar bisa dikonversi menjadi HTML dan banyak format lainnya menggunakan alat yang memiliki nama yang serupa. Markdown sering digunakan untuk memformat file README, untuk menulis pesan di forum diskusi online, dan untuk membuat teks kaya menggunakan penyunting teks polos. Karena deskripsi awal tentang Markdown mengandung ambiguitas dan pertanyaan yang tidak terjawab, banyak implementasi dan perluasan Markdown muncul selama bertahun-tahun untuk menjawab permasalahan ini.</description>
+    </item>
+    
+    <item>
+      <title>Coba Post 1</title>
+      <link>https://alfathir.github.io/alfathir-hugo/coba-post-1/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alfathir.github.io/alfathir-hugo/coba-post-1/</guid>
+      <description>Jadi disini kita coba coba membuat post Post disini akan digunakan untuk mencoba tema ini dan juga hugo</description>
+    </item>
+    
     <item>
       <title>Chinese Test</title>
       <link>https://alfathir.github.io/alfathir-hugo/test-chinese/</link>

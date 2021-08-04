@@ -2,16 +2,55 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://alfathir.github.io/alfathir-hugo/categories/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/belajar/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alfathir.github.io/alfathir-hugo/test-chinese/</loc>
-    <lastmod>2020-09-09T00:00:00+00:00</lastmod>
+    <loc>https://alfathir.github.io/alfathir-hugo/belajar-markdown/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/categories/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/coba/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/categories/coba/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/coba-post-1/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/coding/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/css/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/html/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/markdown/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alfathir.github.io/alfathir-hugo/</loc>
-    <lastmod>2020-10-09T00:00:00+00:00</lastmod>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alfathir.github.io/alfathir-hugo/post/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/programming/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/categories/programming/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/tags/themes/</loc>
+    <lastmod>2021-08-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alfathir.github.io/alfathir-hugo/test-chinese/</loc>
     <lastmod>2020-09-09T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alfathir.github.io/alfathir-hugo/categories/test/</loc>
@@ -26,25 +65,10 @@
     <loc>https://alfathir.github.io/alfathir-hugo/page/</loc>
     <lastmod>2020-10-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alfathir.github.io/alfathir-hugo/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alfathir.github.io/alfathir-hugo/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alfathir.github.io/alfathir-hugo/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://alfathir.github.io/alfathir-hugo/markdown-syntax-guide/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alfathir.github.io/alfathir-hugo/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alfathir.github.io/alfathir-hugo/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alfathir.github.io/alfathir-hugo/tags/themes/</loc>
     <lastmod>2019-03-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alfathir.github.io/alfathir-hugo/categories/themes/</loc>

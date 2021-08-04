@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="id-id">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='Belajar Markdown untuk pemula.'><title>Belajar Markdown</title>
+
+<link rel='canonical' href='https://alfathir.github.io/alfathir-hugo/belajar-markdown/'>
+
+<link rel="stylesheet" href="/alfathir-hugo/scss/style.min.css"><meta property='og:title' content='Belajar Markdown'>
+<meta property='og:description' content='Belajar Markdown untuk pemula.'>
+<meta property='og:url' content='https://alfathir.github.io/alfathir-hugo/belajar-markdown/'>
+<meta property='og:site_name' content='Mboh Gaero Jenenge'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='belajar' /><meta property='article:tag' content='markdown' /><meta property='article:tag' content='programming' /><meta property='article:tag' content='coding' /><meta property='article:published_time' content='2021-08-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2021-08-04T00:00:00&#43;00:00'/>
+<meta name="twitter:title" content="Belajar Markdown">
+<meta name="twitter:description" content="Belajar Markdown untuk pemula.">
+    </head>
+    <body class="
+    article-page has-toc
+">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex 
+    
+        extended
+    
+">
+    
+        <div id="article-toolbar">
+            <a href="https://alfathir.github.io/alfathir-hugo/" class="back-home">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-chevron-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="15 6 9 12 15 18" />
+</svg>
+
+
+
+                <span>Kembali</span>
+            </a>
+        </div>
+    
+<main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/alfathir-hugo/categories/programming/" >
+                programming
+            </a>
+        
+    </header>
+    
+
+    <h2 class="article-title">
+        <a href="/alfathir-hugo/belajar-markdown/">Belajar Markdown</a>
+    </h2>
+
+    
+    <h3 class="article-subtitle">
+        Belajar Markdown untuk pemula.
+    </h3>
+    
+
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Aug 04, 2021</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    Waktu Membaca: 5 menit
+                </time>
+            </div>
+        
+    </footer>
+    
+</div>
+</header>
+
+    <section class="article-content">
+    <h1 id="belajar-markdown-untuk-pemula">Belajar Markdown untuk Pemula</h1>
+<h2 id="pengenalan">Pengenalan</h2>
+<h3 id="apa-sih-markdown-itu">Apa sih Markdown itu?</h3>
+<p>Markdown adalah bahasa markah ringan dengan sintaksis pemformatan teks polos. Bahasa markah ini dirancang agar bisa dikonversi menjadi <a class="link" href="https://id.wikipedia.org/wiki/HTML"  target="_blank" rel="noopener"
+    >HTML</a> dan banyak format lainnya menggunakan alat yang memiliki nama yang serupa. Markdown sering digunakan untuk memformat file <a class="link" href="https://id.wikipedia.org/wiki/README"  target="_blank" rel="noopener"
+    >README</a>, untuk menulis pesan di forum diskusi online, dan untuk membuat teks kaya menggunakan <a class="link" href="https://id.wikipedia.org/wiki/Penyunting_teks"  target="_blank" rel="noopener"
+    >penyunting teks</a> polos. Karena deskripsi awal tentang Markdown mengandung ambiguitas dan pertanyaan yang tidak terjawab, banyak implementasi dan perluasan Markdown muncul selama bertahun-tahun untuk menjawab permasalahan ini.</p>
+<h3 id="sejarah-markdown">Sejarah Markdown</h3>
+<p>John Gruber menciptakan bahasa markdown pada tahun 2004 bekerja sama dengan <a class="link" href="https://id.wikipedia.org/wiki/Aaron_Swartz"  target="_blank" rel="noopener"
+    >Aaron Swartz</a> yang bekerja untuk sintaksisnya, dengan tujuan untuk memungkinkan orang &ldquo;menulis menggunakan format teks polos yang mudah dibaca, mudah untuk tulis, dan secara opsional mengubahnya menjadi <a class="link" href="https://id.wikipedia.org/wiki/XHTML"  target="_blank" rel="noopener"
+    >XHTML</a> (atau <a class="link" href="https://id.wikipedia.org/wiki/HTML"  target="_blank" rel="noopener"
+    >HTML</a>) yang valid secara struktural&rdquo;.</p>
+<p>Tujuan dari desain utamanya adalah keterbacaan – yaitu bahwa bahasa itu dapat dibaca seperti apa adanya, tanpa terlihat seperti ditandai dengan tag atau instruksi pemformatan, tidak seperti teks yang terformat dengan bahasa markah, seperti Rich Text Format (RTF) atau HTML, yang memiliki tag dan instruksi pemformatan yang mencolok. Untuk tujuan ini, inspirasi utamanya adalah konvensi yang ada untuk menandai teks biasa dalam email, meskipun juga mengambil ide dari bahasa markah sebelumnya, terutama setext, Textile, dan reStructuredText.</p>
+<p>Gruber menulis sebuah skrip Perl, <code>Markdown.pl</code>, yang mengkonversi teks yang sudah termarkah menjadi XHTML atau HTML yang terformat dengan baik, mengganti tanda kurung sudut kiri &lsquo;&lt;&rsquo; dan ampersan &lsquo;&amp;&rsquo; dengan referensi entitas yang sesuai. Ini bisa digunakan sebagai script standalone, sebagai plugin untuk Blosxom atau Movable Type, atau sebagai penyaring teks untuk BBEdit.</p>
+<p>Markdown kemudian di implementasikan kembali sebagai modul Perl yang tersedia di CPAN (Text::Markdown), dan dalam berbagai bahasa pemrograman lainnya. Markdown di distribusikan dibawah lisensi bergaya BSD dan disertakan secara baku, atau tersedia sebagai plugin pada beberapa sistem manajemen konten (CMS).</p>
+<p>Situs-situs seperti <a class="link" href="https://github.com"  target="_blank" rel="noopener"
+    >GitHub</a>, <a class="link" href="https://bitbucket.org"  target="_blank" rel="noopener"
+    >Bitbucket</a>, <a class="link" href="https://reddit.com"  target="_blank" rel="noopener"
+    >Reddit</a>, Diaspora, <a class="link" href="https://stackexchange.com"  target="_blank" rel="noopener"
+    >Stack Exchange</a>, OpenStreetMap, dan SourceForge menggunakan varian Markdown untuk memfasilitasi diskusi antar pengguna.</p>
+<h3 id="kenapa-menggunakan-markdown">Kenapa menggunakan Markdown?</h3>
+<p>Kamu mungkin berpikir kenapa orang-orang menggunakan Markdown daripada HTML. Berikut ini beberapa alasan kenapa orang-orang lebih memilih menggunakan Markdown daripada menggunakan HTML.</p>
+<ul>
+<li>
+<p><strong>Markdown bisa digunakan untuk segalanya</strong>. Orang-orang menggunakan Markdown untuk membuat website, dokumen, catatan, buku, presentasi, pesan email, dan dokumentasi teknik. Salah satu contoh website yang dibangun menggunakan Markdown adalah web ini, dibangun menggunakan Markdown dan Hugo sebagai SSG nya 😄.</p>
+</li>
+<li>
+<p><strong>Markdown itu portabel</strong>. File yang mengandung teks dengan format Markdown bisa dibuka dengan aplikasi pengolah Markdown apapun. Jika kamu tidak suka dengan aplikasi pengolah Markdown yang sedang kamu gunakan, kamu bisa mengimpor file Markdown itu ke aplikasi pengolah Markdown lainnya tanpa menulisnya ulang 📋.</p>
+</li>
+<li>
+<p><strong>Markdown itu tidak bergantung pada platform</strong>. Kamu bisa membuat teks berformat Markdown di perangkat apapun dan sistem operasi apapun. Bahkan ketika kamu membuat teks berformat Markdown di komputer dengan sistem operasi Linux kamu bisa membuka teks Markdown itu di smartphone dengan sistem operasi Android. Keren bukan 😎.</p>
+</li>
+<li>
+<p><strong>Markdown ada dimana-mana</strong>. Website seperti Reddit, Github dan Gitlab mendukung Markdown. Banyak juga aplikasi berbasis Desktop, Smartphone, dan Web yang mendukung Markdown 🔆.</p>
+</li>
+</ul>
+<hr>
+<h2 id="markdown-tingkat-dasar">Markdown tingkat Dasar</h2>
+<p>Sintaks Markdown ini adalah sintaks Markdown yang didukung semua aplikasi pengolah Markdown.</p>
+<h3 id="heading">Heading</h3>
+<p>Kamu bisa menggunakan <em>Heading</em> di Markdown layaknya di HTML. Disini saya sertakan tabel perbandingan Sintaks Markdown dan Sintaks HTML, semakin besar nomor-nya berarti semakin kecil ukuran <em>Heading</em> nya</p>
+<table>
+<thead>
+<tr>
+<th>No</th>
+<th>Sintaks Markdown</th>
+<th>Sintaks HTML</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><code># Heading 1</code></td>
+<td><code>&lt;h1&gt;Heading 1&lt;/h1&gt;</code></td>
+</tr>
+<tr>
+<td>2</td>
+<td><code>## Heading 2</code></td>
+<td><code>&lt;h2&gt;Heading 2&lt;/h2&gt;</code></td>
+</tr>
+<tr>
+<td>3</td>
+<td><code>### Heading 3</code></td>
+<td><code>&lt;h3&gt;Heading 3&lt;/h3&gt;</code></td>
+</tr>
+<tr>
+<td>4</td>
+<td><code>#### Heading 4</code></td>
+<td><code>&lt;h4&gt;Heading 4&lt;/h4&gt;</code></td>
+</tr>
+<tr>
+<td>5</td>
+<td><code>##### Heading 5</code></td>
+<td><code>&lt;h5&gt;Heading 5&lt;/h5&gt;</code></td>
+</tr>
+<tr>
+<td>6</td>
+<td><code>###### Heading 6</code></td>
+<td><code>&lt;h6&gt;Heading 6&lt;/h6&gt;</code></td>
+</tr>
+</tbody>
+</table>
+<p>Jika kita perhatikan, jumlah tandah <em>Hashtag</em> <code>#</code> berjumlah sama dengan nomor <em>Heading</em> nya yang berarti <strong>Semakin banyak tanda <code>#</code> maka semakin kecil ukuran <em>Heading</em> nya</strong>.</p>
+<h3 id="bold">Bold</h3>
+<p>Markdown juga mendukung penulisan <strong>Huruf Tebal</strong> / <strong>Bold</strong>. Cara penulisannya yaitu dengan mengapit huruf yang akan kita tebalkan dengan tanda <code>**</code>. Contoh nya seperti <code>**Tebal**</code> menghasilkan <strong>Tebal</strong>. Berikut ini perbandingan Sintaks Markdown dan Sintaks HTML untuk menebalkan huruf.</p>
+<table>
+<thead>
+<tr>
+<th>Sintaks Markdown</th>
+<th>Sintaks HTML</th>
+<th>Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>**Huruf Tebal**</code></td>
+<td><code>&lt;b&gt;Huruf Tebal&lt;/b&gt;</code></td>
+<td><strong>Huruf Tebal</strong></td>
+</tr>
+</tbody>
+</table>
+<h3 id="italic">Italic</h3>
+<p>Tidak hanya Markdown dan Heading. Markdown juga mendukung penulisan <em>Huruf Miring</em> / <em>Italic</em>. Cara penulisannya hampir sama dengan Bold hanya saja Italic menggunakan tanda <code>_</code> untuk mengapit huruf. Contoh nya seperti <code>_Miring_</code> menghasilkan <em>Miring</em>. Berikut ini perbandingan Sintaks Markdown dan Sintaks HTML untuk memiringkan huruf.</p>
+<table>
+<thead>
+<tr>
+<th>Sintaks Markdown</th>
+<th>Sintaks HTML</th>
+<th>Hasil</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>_Huruf Miring_</code></td>
+<td><code>&lt;i&gt;Huruf Miring&lt;/i&gt;</code></td>
+<td><em>Huruf Miring</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="ordered-list">Ordered List</h3>
+<p>Markdown juga bisa digunakan untuk membuat Pengurutan Terstruktur / Ordered List. Cara menggunakannga yaitu dengan menggunakan nomor didepan item yang akan kita urutkan. Contoh Kode sebagai berikut (Ingat! Nomor didepan item bukan nomor baris, melainkan sintaks yang digunakan untuk membuat Pengurutan Terstruktur).</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="k">1.</span> Item ke 1
+<span class="k">2.</span> Item ke 2
+<span class="k">3.</span> Item ke 3
+</code></pre></div><p>Kode diatas akan menghasilkan tampilan berikut ini.</p>
+<ol>
+<li>Item ke 1</li>
+<li>Item ke 2</li>
+<li>Item ke 3</li>
+</ol>
+<h3 id="unordered-list">Unordered List</h3>
+<p>Selain Ordered List, Markdown juga mendukung Pengurutan Tidak Terstruktur / Unordered List. Cara menggunakannya juga cukup mudah, hanya dengan menambahkan tanda <code>-</code> didepan item yang akan kita urutkan. Contoh Kode sebagai berikut.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="k">-</span> Item ke 1
+<span class="k">-</span> Item ke 2
+<span class="k">-</span> Item ke 3
+</code></pre></div><p>Kode diatas akan menghasilkan tampilan berikut ini.</p>
+<ul>
+<li>Item ke 1</li>
+<li>Item ke 2</li>
+<li>Item ke 3</li>
+</ul>
+<h3 id="code">Code</h3>
+<p>Markdown juga bisa digunakan untuk menulis kode loh. Hanya dengan menambahkan tanda <code>`</code> untuk mengapit kode kita (Kode yang digunakan sebaiknya kode sebaris / One line code). Contoh Kode sebagai berikut.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="sb">`for i in range(0, 10)`</span>
+</code></pre></div><p>Kode diatas akan menghasilkan tampilan berikut ini.</p>
+<p><code>for i in range(0, 10)</code></p>
+<h3 id="horizontal-line">Horizontal Line</h3>
+<p>Kamu juga bisa membuat Garis Horizontal / Horizontal Line dengan Markdown. Caranya yaitu dengan menambahkan <code>---</code> di kode kita. Contoh Kode sebagai berikut.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown"><span class="c">&lt;!-- Kode sebelum garis --&gt;</span>
+---
+<span class="c">&lt;!-- Kode setelah garis --&gt;</span>
+</code></pre></div><p>Kode diatas akan menghasilkan tampilan berikut ini.</p>
+<hr>
+<h3 id="link">Link</h3>
+<p>Link / Hyperlink juga bisa dibuat dengan Markdown. Cara penggunaannya juga cukup mudah, hanya dengan mengetikkan <code>[Teks yang ditampilkan](https://link-yang-akan-dituju)</code>. Contoh Kode sebagai berikut.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown">[<span class="nt">Link Google</span>](<span class="na">https://google.com</span>)
+</code></pre></div><p>Kode diatas akan menghasilkan tampilan berikut ini.</p>
+<p><a class="link" href="https://google.com"  target="_blank" rel="noopener"
+    >Link Google</a></p>
+<h3 id="image">Image</h3>
+<p>Image / Gambar juga bisa ditampilkan dengan menggunakan Markdown. Sintaks nya hampir sama dengan Link, hanya saja ditambahkan <code>!</code> didepan sintaks nya. Contoh Kode sebagai berikut.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-Markdown" data-lang="Markdown">![<span class="nt">Logo Hugo</span>](<span class="na">https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg</span>)
+</code></pre></div><p>Kode diatas akan menghasilkan tampilan berikut ini.</p>
+<p><img src="https://d33wubrfki0l68.cloudfront.net/c38c7334cc3f23585738e40334284fddcaf03d5e/2e17c/images/hugo-logo-wide.svg" alt="Logo Hugo"  /></p>
+<hr>
+<h2 id="penutup">Penutup</h2>
+<p>Mungkin sekian dulu pembahasan tentang Markdown tingkat dasar. Di lain waktu akan saya buatkan lagi pembahasan tentang Markdown tingkat lanjut 👋.</p>
+<hr>
+<h2 id="referensi">Referensi</h2>
+<ul>
+<li><a class="link" href="https://id.wikipedia.org/wiki/Markdown"  target="_blank" rel="noopener"
+    >Wikipedia</a></li>
+<li><a class="link" href="https://www.markdownguide.org"  target="_blank" rel="noopener"
+    >Markdown Guide</a></li>
+</ul>
+<hr>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/alfathir-hugo/tags/belajar/">belajar</a>
+        
+            <a href="/alfathir-hugo/tags/markdown/">markdown</a>
+        
+            <a href="/alfathir-hugo/tags/programming/">programming</a>
+        
+            <a href="/alfathir-hugo/tags/coding/">coding</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Copyright - Mboh Gaero Jenenge</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    <aside class="related-contents--wrapper">
+    
+    
+</aside>
+
+     
+     
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "mbohgaerojenenge" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (DISQUS) {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2020 - 
+        
+        2021 Mboh Gaero Jenenge
+    </section>
+    
+    <section class="powerby">
+        Dibangun dengan <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Tema <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="2.5.0">Stack</a></b> dirancang oleh <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer="true"
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.css"integrity="sha256-c0uckgykQ9v5k&#43;IqViZOZKc47Jn7KQil4/MP3ySA3F8="crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.css"integrity="sha256-SBLU4vv6CA6lHsZ1XyTdhyjJxCjPif/TRkjnsyGAGnE="crossorigin="anonymous"
+            >
+
+            </main>
+    
+        <aside class="sidebar right-sidebar sticky">
+            <section class="widget archives">
+                <div class="widget-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+                </div>
+                <h2 class="widget-title section-title">Daftar Isi</h2>
+                
+                <div class="widget--toc">
+                    <nav id="TableOfContents">
+  <ol>
+    <li><a href="#pengenalan">Pengenalan</a>
+      <ol>
+        <li><a href="#apa-sih-markdown-itu">Apa sih Markdown itu?</a></li>
+        <li><a href="#sejarah-markdown">Sejarah Markdown</a></li>
+        <li><a href="#kenapa-menggunakan-markdown">Kenapa menggunakan Markdown?</a></li>
+      </ol>
+    </li>
+    <li><a href="#markdown-tingkat-dasar">Markdown tingkat Dasar</a>
+      <ol>
+        <li><a href="#heading">Heading</a></li>
+        <li><a href="#bold">Bold</a></li>
+        <li><a href="#italic">Italic</a></li>
+        <li><a href="#ordered-list">Ordered List</a></li>
+        <li><a href="#unordered-list">Unordered List</a></li>
+        <li><a href="#code">Code</a></li>
+        <li><a href="#horizontal-line">Horizontal Line</a></li>
+        <li><a href="#link">Link</a></li>
+        <li><a href="#image">Image</a></li>
+      </ol>
+    </li>
+    <li><a href="#penutup">Penutup</a></li>
+    <li><a href="#referensi">Referensi</a></li>
+  </ol>
+</nav>
+                </div>
+            </section>
+        </aside>
+    
+
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.5/dist/vibrant.min.js"integrity="sha256-5NovOZc4iwiAWTYIFiIM7DxKUXKWvpVEuMEPLzcm5/g="crossorigin="anonymous"
+                defer="false"
+                >
+            </script><script type="text/javascript" src="/alfathir-hugo/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -6,7 +6,16 @@
     <description>Recent content in css on Mboh Gaero Jenenge</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>id-id</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://alfathir.github.io/alfathir-hugo/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 04 Aug 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://alfathir.github.io/alfathir-hugo/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Coba Post 1</title>
+      <link>https://alfathir.github.io/alfathir-hugo/coba-post-1/</link>
+      <pubDate>Wed, 04 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://alfathir.github.io/alfathir-hugo/coba-post-1/</guid>
+      <description>Jadi disini kita coba coba membuat post Post disini akan digunakan untuk mencoba tema ini dan juga hugo</description>
+    </item>
+    
     <item>
       <title>Markdown Syntax Guide</title>
       <link>https://alfathir.github.io/alfathir-hugo/markdown-syntax-guide/</link>
